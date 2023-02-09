@@ -25,6 +25,7 @@ div.section{
 div.s1{
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     height: 100vh;
 }
@@ -35,22 +36,43 @@ div.s1-banner{
     justify-content: space-between;
     align-items: center;
 
-    width: 75%;
-    height: 50%;
+    width: 900px;
+    height: 500px%;
     padding: 15px;
 
     background-color: lightgrey;
 }
 
-div.s1-title{
+div.s1-banner-title{
     margin: 0;
 }
 
-div.s1-fumo {
+div.s1-banner-fumo {
     padding: 0 15px 0 20px;
     background-color: #bebebe;
     margin: 0;
 }
+
+div.s1-navbar{
+    background-color: lightgrey;
+    width: 900px;
+    height: 35px;
+    padding: 15px;
+
+    margin-top: 24px;
+
+}
+
+span.s1-navbar-btn__wrapper{
+    display: inline-block;
+    height: 35px;
+    margin: 0 10px 0 10px;
+    }
+
+a.s1-navbar-btn__link{
+    font-size: 24px;
+}
+
 
 div.s2{
     justify-content: center;
@@ -60,9 +82,14 @@ div.s2{
     background-color: #bebebe;
 }
 
+.header{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 h1{
     font-weight: normal;
     font-size: 64px;
+    letter-spacing: 15px;
     margin: 0;
 
 }
@@ -70,6 +97,7 @@ h1{
 h2{
     font-weight: normal;
     font-size: 18px;
+    letter-spacing: 2.5px;
     margin: 0;
 }
 
