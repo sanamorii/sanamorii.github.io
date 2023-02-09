@@ -1,5 +1,6 @@
 :root{
     --yes: #fff;
+    --color-gold: #c1b492;
 }
 
 @font-face {
@@ -12,6 +13,10 @@
 body {
     margin: 0;
     background-color: fff;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 div.content{
@@ -37,23 +42,26 @@ div.s1-banner{
     align-items: center;
 
     width: 900px;
-    height: 500px%;
+    height: 450px;
     padding: 15px;
 
     background-color: lightgrey;
 }
 
 div.s1-banner-title{
-    margin: 0;
+    margin: 0 15px 0 15px;
 }
 
 div.s1-banner-fumo {
     padding: 0 15px 0 20px;
-    background-color: #bebebe;
+    background-color: #fff;
     margin: 0;
 }
 
 div.s1-navbar{
+    display: flex;
+    justify-content: space-evenly;
+
     background-color: lightgrey;
     width: 900px;
     height: 35px;
@@ -69,7 +77,16 @@ span.s1-navbar-btn__wrapper{
     }
 
 a.s1-navbar-btn__link{
-    font-size: 24px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2.5px;
+    line-height: 35px;
+}
+
+a.s1-navbar-btn__link:hover{
+    color: #666;
+    transition: 0.3s;
 }
 
 
@@ -81,6 +98,27 @@ div.s2{
     background-color: #bebebe;
 }
 
+div.s3{
+    height: 100vh;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.s3-socials{
+
+    font-size: 12px;
+}
+
+text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+
+
 .header{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -90,7 +128,7 @@ h1{
     font-size: 64px;
     letter-spacing: 15px;
     margin: 0;
-
+    color: #000;
 }
 
 h2{
@@ -98,8 +136,9 @@ h2{
     font-size: 18px;
     letter-spacing: 2.5px;
     margin: 0;
+    color: #000;
 }
 
-p.codeblock{
-    font-family: yes;
+.fumo{
+    color: #000
 }
