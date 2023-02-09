@@ -1,5 +1,7 @@
 # sanamorii.github.io
-Portfolio Website
+Portfolio Website  
+---
+as you can tell i am very bad at website design
 
 # TODO
 - migrate to jekyll
