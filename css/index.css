@@ -64,9 +64,8 @@ div.s1-navbar{
 }
 
 span.s1-navbar-btn__wrapper{
-    display: inline-block;
     height: 35px;
-    margin: 0 10px 0 10px;
+    padding: 0 5px 0 5px;
     }
 
 a.s1-navbar-btn__link{
