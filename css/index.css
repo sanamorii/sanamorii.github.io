@@ -1,32 +1,11 @@
-:root{
-    --yes: #fff;
-    --color-gold: #c1b492;
-}
 
-@font-face {
-    font-family: "RobotoCondensed";
-    src: url(../fonts/RobotoCondensed-Bold.ttf);
-    font-weight: bold;
-    font-style: normal;
-}
-
-body {
-    margin: 0;
-    background-color: fff;
-}
-
-html{
-    scroll-behavior: smooth;
-}
-
-div.content{
-
-}
 
 div.section{
     display: flex;
 }
 
+
+/* s1 */
 div.s1{
     justify-content: center;
     align-items: center;
@@ -38,14 +17,14 @@ div.s1{
 div.s1-banner{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
     width: 900px;
     height: 450px;
     padding: 15px;
 
-    background-color: lightgrey;
+    background-color: var(--color-fg);
 }
 
 div.s1-banner-title{
@@ -62,7 +41,7 @@ div.s1-navbar{
     display: flex;
     justify-content: space-evenly;
 
-    background-color: lightgrey;
+    background-color: var(--color-fg);
     width: 900px;
     height: 35px;
     padding: 15px;
@@ -79,13 +58,13 @@ span.s1-navbar-btn__wrapper{
 a.s1-navbar-btn__link{
     font-size: 18px;
     text-decoration: none;
-    color: black;
+    color: var(--color-text);
     letter-spacing: 2.5px;
     line-height: 35px;
 }
 
 a.s1-navbar-btn__link:hover{
-    color: #666;
+    color: #d2738a;
     transition: 0.3s;
 }
 
@@ -93,22 +72,56 @@ a.s1-navbar-btn__link:hover{
 div.s2{
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
     height: 100vh;
-    background-color: #bebebe;
+    background-color: var(--color-fg);
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+
+    padding: 16px;
 }
 
+text.s2-body{
+    color: var(--color-text);
+}
+
+
 div.s3{
-    height: 100vh;
+
+}
+
+div.s4{
+    height: 10vh;
 
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-div.s3-socials{
 
+div.s4-socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+div.s4-socials-links{
+    display: flex;
+}
+
+a.s4-socials-links__link{
     font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    margin: 0 2px 0 2px
+}
+a.s4-socials-links__link:hover{
+    color: var(--color-text);
 }
 
 text{
@@ -118,25 +131,23 @@ text{
     text-align: center;
 }
 
-
-.header{
+.header_text{
     font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    color: var(--color-text);
 }
 
 h1{
     font-weight: normal;
     font-size: 64px;
     letter-spacing: 15px;
-    margin: 0;
-    color: #000;
+
 }
 
 h2{
     font-weight: normal;
     font-size: 18px;
     letter-spacing: 2.5px;
-    margin: 0;
-    color: #000;
 }
 
 .fumo{
