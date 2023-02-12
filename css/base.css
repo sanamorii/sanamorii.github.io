@@ -1,0 +1,26 @@
+:root{
+    --yes: #fff;
+    --color-text: #c1b492;
+    --color-bg: #ff5c5c;
+    --color-fg: #000;
+
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+@font-face {
+    font-family: "RobotoCondensed";
+    src: url(../fonts/RobotoCondensed-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-bg);
+}
+
+html{
+    scroll-behavior: smooth;
+}
