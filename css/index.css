@@ -17,7 +17,7 @@ div.s1{
 div.s1-banner{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 
     width: 900px;
@@ -39,7 +39,7 @@ div.s1-banner-fumo {
 
 div.s1-navbar{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     background-color: var(--color-fg);
     width: 900px;
@@ -84,7 +84,15 @@ div.s2{
     padding: 16px;
 }
 
-text.s2-body{
+div.s2-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    padding: 15px;
+}
+
+text.s2-body__text{
     color: var(--color-text);
 }
 
