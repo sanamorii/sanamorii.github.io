@@ -1,5 +1,4 @@
 :root{
-    --yes: #fff;
     --color-text: #c1b492;
     --color-bg: #ff5c5c;
     --color-fg: #000;
@@ -19,8 +18,16 @@
 body {
     margin: 0;
     background-color: var(--color-bg);
+
 }
 
 html{
     scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+.content{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
 }

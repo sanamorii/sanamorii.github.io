@@ -17,7 +17,7 @@ div.s1{
 div.s1-banner{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
     width: 900px;
@@ -39,7 +39,7 @@ div.s1-banner-fumo {
 
 div.s1-navbar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     background-color: var(--color-fg);
     width: 900px;
@@ -50,10 +50,11 @@ div.s1-navbar{
 
 }
 
+
 span.s1-navbar-btn__wrapper{
     height: 35px;
     padding: 0 5px 0 5px;
-    }
+}
 
 a.s1-navbar-btn__link{
     font-size: 18px;
@@ -66,6 +67,13 @@ a.s1-navbar-btn__link{
 a.s1-navbar-btn__link:hover{
     color: #d2738a;
     transition: 0.3s;
+}
+
+.front-banner_text{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    color: var(--color-text);
+    text-align: center;
 }
 
 
@@ -139,23 +147,25 @@ text{
     text-align: center;
 }
 
-.header_text{
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-    color: var(--color-text);
-}
-
 h1{
     font-weight: normal;
     font-size: 64px;
-    letter-spacing: 15px;
+    line-height: 64px;
+    letter-spacing: 24px;
 
 }
 
 h2{
     font-weight: normal;
     font-size: 18px;
-    letter-spacing: 2.5px;
+    line-height: 18px;
+    letter-spacing: 4.2px;
+}
+h3{
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 15px;
+    letter-spacing: 10px;
 }
 
 .fumo{
