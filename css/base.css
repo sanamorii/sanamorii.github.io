@@ -1,5 +1,8 @@
 :root{
     --color-text: #000;
+    --color-link: #000;
+    --color-link_hover: #888;
+
     --color-bg: #fff;
     --color-fg: #bebebe;
 
