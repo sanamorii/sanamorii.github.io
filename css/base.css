@@ -1,7 +1,7 @@
 :root{
-    --color-text: #c1b492;
-    --color-bg: #ff5c5c;
-    --color-fg: #000;
+    --color-text: #000;
+    --color-bg: #fff;
+    --color-fg: #bebebe;
 
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
