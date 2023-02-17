@@ -1,15 +1,14 @@
 
 
-div.section{
-    display: flex;
-}
 
 
-/* front */
+/* FRONT */
 div.front{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    background-color: var(--color-fg);
 
     height: 100vh;
 }
@@ -20,34 +19,27 @@ div.front-banner{
     justify-content: center;
     align-items: center;
 
+    background-color: var(--color-bg);
+
     width: 900px;
     height: 450px;
     padding: 15px;
-
-    background-color: var(--color-fg);
 }
 
 div.front-banner-title{
     margin: 0 15px 0 15px;
 }
 
-div.front-banner-fumo {
-    padding: 0 15px 0 20px;
-    background-color: #fff;
-    margin: 0;
-}
-
 div.front-navbar{
     display: flex;
     justify-content: space-evenly;
 
-    background-color: var(--color-fg);
+    background-color: var(--color-bg);
+
     width: 900px;
     height: 35px;
     padding: 15px;
-
-    margin-top: 24px;
-
+    border-top: solid #000;
 }
 
 
@@ -70,96 +62,19 @@ a.front-navbar-btn__link:hover{
 }
 
 .front-banner_text{
-    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     color: var(--color-text);
     text-align: center;
 }
+/* END */
 
-
-div.aboutme{
+div.main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
-    height: 100vh;
-    background-color: var(--color-fg);
-
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
-
-    padding: 16px;
+    width: 100%;
 }
-
-div.aboutme-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 900px;
-    padding: 15px;
-}
-
-text.aboutme-body__text{
-    color: var(--color-text);
-}
-
-
-div.projects{
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    height: 100vh;
-    background-color: var(--color-bg);
-
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
-
-    padding: 16px;
-}
-
-div.projects-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 900px;
-    padding: 15px;
-}
-
-text.projects-body__text{
-    color: var(--color-text);
-}
-
-
-div.journal{
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-    height: 100vh;
-    background-color: var(--color-fg);
-
-    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-    box-sizing: border-box;         /* Opera/IE 8+ */
-
-    padding: 16px;
-}
-
-div.journal-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 900px;
-    padding: 15px;
-}
-
-text.journal-body__text{
-    color: var(--color-text);
-}
-
 
 div.ft{
     height: 10vh;
@@ -167,6 +82,8 @@ div.ft{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    background-color: var(--color-fg);
 }
 
 
@@ -192,13 +109,6 @@ a.ft-socials-links__link:hover{
     color: var(--color-text);
 }
 
-text{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    letter-spacing: 2.5px;
-    text-align: center;
-}
-
 h1{
     font-weight: normal;
     font-size: 64px;
@@ -216,8 +126,8 @@ h2{
 h3{
     font-weight: normal;
     font-size: 42px;
-    line-height: 15px;
     letter-spacing: 10px;
+    margin: 0;
 }
 
 .fumo{

@@ -3,8 +3,8 @@
     --color-link: #000;
     --color-link_hover: #888;
 
-    --color-bg: #fff;
-    --color-fg: #bebebe;
+    --color-bg: #CFE3E8;
+    --color-fg: #f0f8ff;
 
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
@@ -21,7 +21,7 @@
 body {
     margin: 0;
     background-color: var(--color-bg);
-
+    font-family: monospace;
 }
 
 html{
@@ -33,4 +33,58 @@ html{
 	position: relative;
 	width: 100%;
 	overflow: hidden;
+}
+
+div.section{
+    display: flex;
+
+    padding: 16px;
+    
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+
+}
+
+
+div.article{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+
+    margin: 40px auto 0 auto;
+
+    background-color: var(--color-fg);
+
+    min-height: 400px;
+
+}
+
+div.article:first-child{
+    margin: 80px auto 0px auto;
+}
+
+div.article:last-child{
+    margin: 40px auto 80px auto;
+}
+
+div.article-body{
+    height: auto;
+}
+
+div.article-header > h1{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 9px;
+    text-align: center;
+
+    margin: 0;
+    padding: 16px;
+
+    border-bottom: solid #000;
+}
+
+div.article-body > p{
+    text-align: center;
 }
