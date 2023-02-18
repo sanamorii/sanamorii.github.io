@@ -11,6 +11,16 @@ div.front{
     background-color: var(--color-fg);
 
     height: 100vh;
+    
+}
+
+div.front-wrapper{
+    opacity: 0;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: .3s;
+    box-shadow: 5px 5px 10px black;
 }
 
 div.front-banner{
