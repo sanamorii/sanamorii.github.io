@@ -228,8 +228,8 @@ div.project-entry > h2{
 
 div.project-entry > img{
     float: left;
-    width: 156px;
-    height: 156px;
+    width: 175px;
+    height: 175px;
     background-color: grey;
-    margin-right: 10px;
+    margin-right: 24px;
 }
