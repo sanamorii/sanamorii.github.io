@@ -72,8 +72,6 @@ div.article{
 
     background-color: var(--color-fg);
 
-    min-height: 400px;
-
     box-shadow: 10px 5px 5px black;
 
 }
@@ -93,6 +91,8 @@ div.article:only-child{
 div.article-body{
     height: auto;
     padding: 24px;
+
+    min-height: 200px;
 }
 
 
@@ -123,7 +123,7 @@ div.article-footer > h1{
     text-align: center;
 }
 
-div.article-entry{
+div.article-section{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,36 +135,36 @@ div.article-entry{
     border-bottom: 2.5px solid black;
 }
 
-div.article-entry:first-child{
+div.article-section:first-child{
     padding: 0 10px 24px 10px;
 }
 
-div.article-entry:last-child{
+div.article-section:last-child{
     padding: 24px 10px 0 10px;
     border-bottom: none;   
 }
 
-div.article-entry.center{
+div.article-section.center{
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-div.article-entry.left{
+div.article-section.left{
     justify-content: flex-start;
     /* align-items: ; */
     flex-direction: column;
 }
 
 
-div.article-entry > .entry_img{
+div.article-section > .img{
     width: 256x;
     height: 256px;
     margin: 10px 0 10px 0;
 }
 
 
-div.article-entry > h1{
+div.article-section > h1{
     margin: 16px 0;
     width: 100%;
     
@@ -173,12 +173,16 @@ div.article-entry > h1{
     text-align: center;
 }
 
-div.article-entry > p{
+div.article-section > p{
     margin: 16px 0;
+    font-size: 18px;
+    letter-spacing: .5px;
     width: 100%;
 }
 
-div.article-entry > div.list__container{
+
+
+div.list__container{
     display: flex;
     flex-direction: row;
     margin: 16px 0;
@@ -194,4 +198,38 @@ ul{
     padding-left: 16px;
     text-decoration: none;
     
+}
+
+div.project-entry{
+    width: 100%;
+}
+
+div.project-entry > h2{
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2.5px;
+    margin: 0;
+}
+
+div.project-entry > h1{
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+div.project-entry > h2{
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 2.5px;
+    margin: 0;
+}
+
+div.project-entry > img{
+    float: left;
+    width: 156px;
+    height: 156px;
+    background-color: grey;
+    margin-right: 10px;
 }
